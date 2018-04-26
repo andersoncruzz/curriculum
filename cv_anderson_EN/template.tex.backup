@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{brazil}
+\selectlanguage{brazil}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{anderson.jpg} % Profile picture
+
+\cvname{Anderson \\Araújo da Cruz} % Your name
+\cvjobtitle{Analista de TI, Eng. de SW, Eng. de Machine Learning, Desenvolvedor Back-end} % Job title/career
+
+\cvdate{12 de Março de 1995} % Date of birth
+\cvaddress{Manaus, AM - Brasil} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{(92) 99243-6073} % Phone number
+\cvsite{http://lattes.cnpq.br/ 2289337100953806} % Personal website
+\cvmail{ac.andersoncruz@gmail.com aac@icomp.ufam.edu.br} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{É Bacharel em Sistemas de Informação pela Universidade Federal do Amazonas (UFAM) em 2016. Atualmente é Mestrando na UFAM pelo Programa de Pós-Graduação em Informática no IComp e pesquisador do Grupo de Interesse em Sistemas Embarcados (GISE-UFAM). Possui interesse em atuar nas seguintes áreas: aprendizagem de máquina, aprendizagem profunda, sistemas embarcados, educação digital, aplicações móveis, distribuídas e web.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Machine e Deep Learning/5.2},{Python, Java, JS, PHP, Android, C e C++/4.7},{NodeJS, React/3},{NoSQL, Hadoop, Spark, MapReduce/3.7},{Arduino, 8051, Galileo Intel, Raspberry/3.95}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{TensorFlow/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2011-2012}{Inglês}{Faculdade Salesiana Dom Bosco}{Intermediário}
+	\twentyitem{2018-}{Inglês}{Universidade Federal do Amazonas}{Intensivo - Projeto CEL}
+	%\twentyitem{1861-1863}{B.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
+	%\twentyitem{1856-1861}{High school}{Wonderland}{Specializing in mathematics and physics.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%\section{Interests}
+
+%The heroine and the dreamer of Wonderland; Alice is the principal character.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educação}
+
+\begin{twenty} % Environment for a list with descriptions
+	%\twentyitem{since 1865}{Ph.D. {\normalfont candidate in Computer Science}}{Wonderland}{\emph{A Quantified Theory of Social Cohesion.}}
+	\twentyitem{2017-}{Mestrado em Informática}{Universidade Federal do Amazonas}{Título: Reconhecimento de Emoção por Expressão Facial Utilizando Redes Neurais de Convolução}
+	\twentyitem{2013-2016}{Ensino Superior}{Universidade Federal do Amazonas}{Bacharel em Sistemas de Informação}
+	%\twentyitem{1856-1861}{High school}{Wonderland}{Specializing in mathematics and physics.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Prêmios}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2014}{Melhor aplicativo Android - Projeto Promobile/UFAM/Samsung}
+	\twentyitemshort{2015}{Melhor aplicativo Android - Projeto Promobile/UFAM/Samsung}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Projetos}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2014-2016}{Sistemas para Avaliação de Comportamento e Recomendação Inteligente em Ambientes Educacionais e de Saúde Remota}{UFAM/Samsung}{Desenvolvedor/Pesquisador}
+	\twentyitem{2013-2016}{Programa estratégico de indução à formação de recursos humanos em engenharias e em tecnologia da informação no amazonas em centros de educação de tempo integral. RHTI e Pró-Engenharias}{FAPEAM}{Bolsista}
+	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+%\section{Experiência}
+
+%\begin{twenty} % Environment for a list with descriptions
+%	\twentyitem{2017-}{Prestador de Serviços}{RGM Serviços}{Desenvolvimento de SW embarcado}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+%\end{twenty}
+
+\section{Cursos Complementares}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2015}{Sentiment Analysis Methods for Social Media}{WebMedia}{}
+	\twentyitem{2015}{Recommender Systems}{WebMedia}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+\section{Publicações}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2017}{\emph{CRUZ, ANDERSON}; LEITÃO, GABRIEL ; COLONNA, JUAN ; SILVA, EDSON ; BARRETO, RAIMUNDO ; PRIMO, TIAGO . Framework para coleta e inferência de estados emocionais de alunos baseado em reconhecimento de expressões faciais. In: XXVIII Simpósio Brasileiro de Informática na Educação SBIE (Brazilian Symposium on Computers in Education), 2017, Recife, 2017. p. 997.}
+	\twentyitemshort{2017}{ALMEIDA, G. ; \emph{CRUZ, ANDERSON} ; CASTRO, T. ; GADELHA, B. . Done: Uma ferramenta de suporte à aprendizagem colaborativa de programação utilizando técnicas do Coding Dojo. In: Conferência Internacional sobre Informática na Educação, TISE, 2017, Fortaleza. Nuevas Ideas en Informática Educativa. Santiago de Chile, 2017. v. 13. p. 77-86.}
+	\twentyitemshort{2016}{RIBEIRO, ERICK ; BENTES, LARISSA ; \emph{CRUZ, ANDERSON} ; LEITAO, GABRIEL ; BARRETO, RAIMUNDO ; SILVA, VANDERMI ; PRIMO, TIAGO ; KOCH, FERNANDO . On the use of inertial sensors and machine learning for automatic recognition of fainting and epileptic seizure. In: 2016 IEEE 18th International Conference on eHealth Networking, Applications and Services (Healthcom), 2016, Munich. p. 1.}
+	\twentyitemshort{2016}{\emph{CRUZ, ANDERSON} ; LEITAO, GABRIEL ; BARRETO, RAIMUNDO ; KOCH, FERNANDO ; PRIMO, TIAGO . Emotion Recognition based on Physiological Sensors and Machine Learning Techniques. In: 2016 International Symposium on Perception, Action, and Cognitive Systems (PACS), 2016, Seoul (Korea). p. 30-32.}
+	
+
+
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+\end{document} 

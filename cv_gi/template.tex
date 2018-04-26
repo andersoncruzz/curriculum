@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper, brazil]{twentysecondcv} % a4paper for A4
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{brazil}
+\selectlanguage{brazil}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{giselle.jpg} % Profile picture
+
+\cvname{Giselle \\de Almeida Costa} % Your name
+\cvjobtitle{Analista de TI, Desenvolvedora Jr., Analista de QA, Engenheira de Testes} % Job title/career
+
+\cvdate{23 de Setembro de 1994} % Date of birth
+\cvaddress{Rua Arthur Virg\'{\i}lio, 25, Ouro Verde - Coroado 3, Manaus, Amazonas} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{(92) 99336-2332} % Phone number
+%\cvsite{giselle.almeida.costa@gmail.com} % Personal website
+\cvmail{giselle.almeida.costa@gmail.com gac@icomp.ufam.edu.br} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Sou uma pessoa din\^amica e pr\'o-ativa, disposta sempre a aprender, com facilidade para o aprendizado e principalmente no trabalho colaborativo. Busco sempre novas responsabilidades e experi\^encias e procuro oportunidades em empresas onde posso estar sempre ampliando os meus conhecimentos.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{JavaScript/5},{React/3},{HTML e CSS/6},{Selenium/5},{JMeter/3}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{Programação WEB/6},{Planejamento e Execução de Testes de SW/5}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+\section{Idiomas}
+
+\begin{twenty} % Environment for a list with descriptions
+	%\twentyitem{since 1865}{Ph.D. {\normalfont candidate in Computer Science}}{Wonderland}{\emph{A Quantified Theory of Social Cohesion.}}
+	%\twentyitem{1863-1865}{M.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
+	\twentyitem{2013}{Inglês}{Universidade Estadual do Amazonas}{Intermediário}
+	%\twentyitem{2011-2013}{Ensino Técnico}{FUCAPI}{Curso: Inform\'atica}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educação}
+
+\begin{twenty} % Environment for a list with descriptions
+	%\twentyitem{since 1865}{Ph.D. {\normalfont candidate in Computer Science}}{Wonderland}{\emph{A Quantified Theory of Social Cohesion.}}
+	%\twentyitem{1863-1865}{M.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
+	\twentyitem{2013-2017}{Ensino Superior}{Universidade Federal do Amazonas}{Bacharel em Sistemas de Informação}
+	\twentyitem{2011-2013}{Ensino Técnico}{FUCAPI}{Curso: Inform\'atica}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publicação}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+
+%ALMEIDA, G. ; CRUZ, ANDERSON ; CASTRO, T. ; GADELHA, B. . Done: Uma ferramenta de suporte à aprendizagem colaborativa de programação utilizando técnicas do Coding Dojo. In: Conferência Internacional sobre Informática na Educação, TISE, 2017, Fortaleza. Nuevas Ideas en Informática Educativa. Santiago de Chile, 2017. v. 13. p. 77-86.
+
+	\twentyitemshort{2017}{ALMEIDA, G. ; CRUZ, ANDERSON ; CASTRO, T. ; GADELHA, B. . Done: Uma ferramenta de suporte à aprendizagem colaborativa de programação utilizando técnicas do Coding Dojo. In: Conferência Internacional sobre Informática na Educação, TISE, 2017, Fortaleza. Nuevas Ideas en Informática Educativa. Santiago de Chile, 2017. v. 13. p. 77-86.}
+	%\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+	%\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+	%\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+	%\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiência}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2016-2017}{Estagiária}{Instituto Nacional de Pesquisas da Amazônia - INPA}{Desenvolvimento de sistemas web e testes de Software.}
+%	\twentyitem{1933}{Alice in Wonderland 1933 version.}{Film}{This film stars Ethel griffies and Charlotte Henry. It was a box office flop when it was released.}
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+\section{Projetos}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2013-2015}{Bolsista}{FAPEAM / Projeto Pró-Engenharias e RHTI}{Ensino de programação, acompanhamento para
+vestibular e aplicação de oficina de matemática.}
+%	\twentyitem{1933}{Alice in Wonderland 1933 version.}{Film}{This film stars Ethel griffies and Charlotte Henry. It was a box office flop when it was released.}
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+\section{Cursos Complementares}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{2017}{Processo de Desenvolvimento de SW}{Fundação Bradesco}{}{}
+	\twentyitem{2016}{Treinamento Scrum}{Fundação Paulo Feitosa}{}{}
+	\twentyitem{2010}{Informática Básica}{CDL Manaus}{}{}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+
+\subsection{Review}
+
+Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
